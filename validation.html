@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <script type="text/javascript" src="script1.js" defer></script>
+    <link rel="stylesheet" href="styles1.css">
+   
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>Minecraft</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+<body>
+        <div id="cabeça">
+        <nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+    <H3 class="text-light">Barra de Navegação</H3>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-light" aria-current="page" href="https/../index">Sobre Mim</a>
+          </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Projetos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https/../worldorbit">Projeto Órbita</a></li>
+             <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="https/../adicional">Projeto Adicional</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="https/../infinity">Projeto Infinito</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="https/../calc">Projeto Calculadora</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="https/../validation">Projeto Validação de Formulário</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </div>
+    <div id="corpo">
+    <div id="title">
+    <h1>MINECRAFT</h1>
+    </div>
+    <form id='for1'>
+        
+
+        <div class="me">
+        <label for="name">Nome Completo:</label>
+        <input type="text" name="name" id="name" required pattern="[A-Za-z]{1,32}">
+      
+        
+        <label for="mail">E-mail completo:</label>
+        <input type="email" name="mail" id="mail" required placeholder="[...]@gmail.com">
+        
+ 
+        
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha" required>
+       
+        
+        <label for="senha1">Coloca a Senha de Novo:</label>
+        <input type="password" name="senha1" id="senha1" required>
+       
+        
+        <h3>Gosta de Minecraft?</h3>
+        <div id="gods">
+        <label for="gos">Sim</label>
+        <input type="radio" name="gos" id="sim">
+        <label for="gos">Não</label>
+        <input type="radio" name="gos" id="nao">
+        <label for="gos">Outro</label>
+        <input type="radio" name="gos" id="ou">
+        </div>
+        
+        <label for="mor">Data do SEU Nascimento:</label>
+        <input type="date" name="mor" id="mor" required>
+        <label for="idade">Quantia de Anos que o Mundo Sofre Com Sua Presença:</label>
+        <input type="text" name="idade" id="idade" disabled>
+       
+        <label for="ing">Data de Ingreço no Jogo:</label>
+        <input type="date" name="ing" id="ing" required>
+        <label for="an">Anos de Jogo:</label>
+        <input type="text" name="an" id="an" disabled>
+        </div>
+        <div class="me">
+
+        
+        <label for="cpf">Insira seu CPF:</label>
+        <input type="number" name="cpf" id="cpf" required placeholder="***.***.***-**" minlength="13" maxlength="13" pattern="[0-9]">
+        <div>
+        <label for="cor">Cor de Concreto Favorita:</label>
+        <input type="color" name="cor" id="cor">
+        </div>
+        
+        <h3>Mob(s) Favorito(s):</h3>
+        <div class="op">
+        <label for="mob">Zumbi ></label>
+        <input type="checkbox" name="mob" class="mob">
+        <label for="mob">Esqueleto ></label>
+        <input type="checkbox" name="mob" class="mob">
+        <label for="mob">Enderman ></label>
+        <input type="checkbox" name="mob" class="mob">
+        <label for="mob">Creeper ></label>
+        <input type="checkbox" name="mob" class="mob">
+        <label for="mob">Aranha ></label>
+        <input type="checkbox" name="mob" class="mob">
+        <label for="mob">Piglin ></label>
+        <input type="checkbox" name="mob" class="mob">
+        <label for="mob">Hoglin ></label>
+        <input type="checkbox" name="mob" class="mob">
+        <label for="mob">Wither ></label>
+        <input type="checkbox" name="mob" class="mob">
+        </div>
+
+        <label for="gn">Nick de Jogo:</label>
+        <input type="text" name="gn" id="gn" required>
+
+        <label for="accept">Aceito Vender a Alma para o Lord Herobrine</label>
+        <input type="checkbox" name="accept" id="accept" required>
+        <input type="submit" name="submit" id="submit">
+
+        <p id="obs">*Caixas Com Bordas Vermelhas São Obrigatórias*</p>
+    </div>
+    </form>
+        </div>
+</body>
+</html>
